@@ -1,0 +1,18 @@
+all:
+  hosts:
+    rpi1:
+      ansible_host: rpi1 # 192.168.1.101
+      ansible_user: rpi
+      ansible_ssh_private_key_file: ~/.ssh/rpi
+    rpi2:
+      ansible_host: rpi2 # 192.168.1.102
+      ansible_user: rpi
+      ansible_ssh_private_key_file: ~/.ssh/rpi
+    rpi3:
+      ansible_host: rpi3 # 192.168.1.103
+      ansible_user: rpi
+      ansible_ssh_private_key_file: ~/.ssh/rpi
+    rpi4:
+      ansible_host: rpi4 # 192.168.1.104
+      ansible_user: rpi
+      ansible_ssh_private_key_file: ~/.ssh/rpi

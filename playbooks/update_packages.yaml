@@ -1,0 +1,11 @@
+- name: Update all packages
+  hosts: all  # Target your Ubuntu host group
+  become: true            # Use privilege escalation (sudo)
+  tasks:
+    - name: Update apt package cache
+      ansible.builtin.apt:
+        update_cache: true
+
+    - name: Upgrade all installed packages
+      ansible.builtin.apt:
+        upgrade: true
