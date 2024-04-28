@@ -1,6 +1,8 @@
-# rpi_cluster
+# RPi Cluster
 
 This repository contains ansible scripts utilized to administer my personal
+raspberry pi clsuter. I'm sharing this for educational purposes, though it 
+is minimally maintained and documented here.
 
 ## Setup
 
